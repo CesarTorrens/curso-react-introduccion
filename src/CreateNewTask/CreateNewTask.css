@@ -1,0 +1,27 @@
+.CreateNewTask {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #198754;
+    box-shadow: 2px 2px 5px hsl(152, 69%, 31%), -2px -2px 5px #198754;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;    
+    margin-top: 20px;
+    border: 1px solid white;    
+}
+
+.CreateNewTask:hover {
+    background-color: hsl(152, 69%, 31%, 0.8);        
+}
+.CreateNewTask:active {
+    transform: scale(1.1);
+    transition: 0.5s;    
+}

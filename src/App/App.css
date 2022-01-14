@@ -1,0 +1,46 @@
+.ContainerRight {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.ContainerLeft {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.ContainerLeftDiv {
+    height: 850px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgb(255 185 203), -5px -5px 10px rgb(153, 81, 118); 
+    border-top: 2px solid rgb(153, 81, 118);
+    border-left: 2px solid rgb(153, 81, 118);
+    border-right: 2px solid rgb(255 185 203);
+    border-bottom: 2px solid rgb(255 185 203);
+
+}
+.TasksDiv {
+    width: 100%;
+    height: 51vh;
+    overflow-y: auto;
+}
+.TasksDiv::-webkit-scrollbar {
+    width: 5px;
+}
+.TasksDiv::-webkit-scrollbar-thumb {
+    background: rgb(153, 81, 118);
+    border-radius: 4px;
+}

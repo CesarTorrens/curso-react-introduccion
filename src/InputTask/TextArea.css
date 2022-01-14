@@ -1,0 +1,24 @@
+.TextArea {
+    margin-top: 20px;
+    margin-bottom: 10px;    
+    width: 400px;
+    border-radius: 4px;
+    border: none;  
+    height: 50px;
+    box-shadow: 5px 5px 10px rgba(255, 99, 71, 1), -5px -5px 10px rgba(255, 99, 71, 1);   
+    font-size: 20px;    
+    font-family: 'Heebo', sans-serif;
+    
+}
+.TextArea::placeholder {
+    text-align: center;    
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 99, 71, 1);  
+}
+.TextArea:hover {
+    border: 2px solid rgba(255, 99, 71, 1);
+}
+.TextArea:focus {
+    outline-color: rgba(255, 99, 71, 1);
+}

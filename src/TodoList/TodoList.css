@@ -1,0 +1,12 @@
+.SectionTodoList {
+    margin-top: 20px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.TodoList {
+    padding: 0;
+    width: 80%;
+}
